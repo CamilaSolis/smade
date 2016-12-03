@@ -10,40 +10,49 @@
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
 <body>
+	<div class="logo">
+		<img src="img/logo.png">
+	</div>
 	<div class="inicio row">
-	<form class="form-horizontal">
-		<select class="form-control opciones">
-		<option>Administrador</option>
-			<option>Control Escolar</option>
-			<option>Jefe de Docentes</option>
-			<option>Docente</option>
-		</select>
-			<div class="form-group">
-				<div class="col-sm-12">
-					<input type="email" class="form-control" id="exampleInputName2" placeholder="Nombre de Usuario">
+		<form class="form-horizontal">
+			<section class="formulario">
+				<div class="input-group margin-bottom-sm drop">
+					<select class="form-control">
+						<option>Administrador</option>
+						<option>Control Escolar</option>
+						<option>Jefe de Docentes</option>
+						<option>Docente</option>
+					</select>
 				</div>
-			</div>
-			<div class="form-group">
-				<div class="col-sm-12">
-					<input type="password" class="form-control" id="inputPassword3" placeholder="Contraseña">
-				</div>
-			</div>
-			<div class="form-group">
-				<div class="col-sm-12">
-					<div class="checkbox">
-						<label>
-							<input type="checkbox"> Recordarme
-						</label>
+				<div class="form-group">
+					<div class="input-group margin-bottom-sm">
+						<span class="input-group-addon"><i class="fa fa-user-circle-o"></i></span>
+						<input type="email" class="form-control" id="exampleInputName2" placeholder="Nombre de Usuario">
 					</div>
 				</div>
-			</div>
-			<div class="form-group">
-				<div class="col-sm-12">
+				<div class="form-group">
+					<div class="input-group margin-bottom-sm">
+						<span class="input-group-addon"><i class="fa fa-key"></i></span>
+						<input type="password" class="form-control" id="inputPassword3" placeholder="Contraseña">
+					</div>
+				</div>
+				<div class="form-group">
+					<div class="col-sm-5">
+						<div class="pregunta">								<input type="checkbox"> Recordarme
+						</div>
+					</div>
+					<div class="col-sm-7">
+						<div class="pregunta">
+							<span class="fa fa-question-circle"></span>¿Necesita ayuda?
+						</div>
+					</div>
+				</div>
+				<div class="form-group">
 					<a class="btn btn-primary btn-lg login" href="#" role="button">Login</a>
 				</div>
-			</div>
-		</form>
-	</div>
+			</form>
+		</div>
+	</section>
 
 	
 </body>
